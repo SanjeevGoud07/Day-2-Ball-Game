@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  color: #ffffff;
+}
+
+body {
+  background-image: url("https://i.ibb.co/P91xjMN/51364.jpg");
+  background-size: cover;
+}
+
+header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+
+.game-Con {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  width: 400px;
+  height: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+  border-color: #ffffff;
+  overflow: hidden;
+  top: 20vh;
+  left: 35vw;
+  background-color: rgba(254, 254, 254, 0.07);
+}
+
+#character {
+  width: 20px;
+  height: 20px;
+  background-color: #c90000;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: 400px;
+  left: 190px;
+  z-index: 10000000;
+}
+
+.block {
+  width: 400px;
+  height: 20px;
+  background-color: black;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+  background-color: #913800;
+  /* background: linear-gradient(to bottom right, #7a4016, #4f2100); */
+  /* -webkit-background-clip: border-box; */
+  color: transparent;
+}
+
+.hole {
+  width: 40px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
