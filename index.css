@@ -8,7 +8,8 @@
 }
 
 body {
-  background-image: url("https://i.ibb.co/P91xjMN/51364.jpg");
+  /* background-image: url("https://i.ibb.co/P91xjMN/51364.jpg"); */
+  background-image: url("https://i.ibb.co/sbLYdRn/balls-light-glass-neon-81360-1920x1080.jpg");
   background-size: cover;
 }
 
@@ -19,7 +20,8 @@ header {
 }
 
 .game-Con {
-  height: 80vh;
+  top: 200px;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,10 +30,12 @@ header {
 #game {
   width: 400px;
   height: 500px;
-  border: 3px solid black;
+  border: 0.5px solid black;
   border-radius: 10px;
   border-color: #ffffff;
+  backdrop-filter: blur(10px);
   overflow: hidden;
+  box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 1);
   top: 20vh;
   left: 35vw;
   background-color: rgba(254, 254, 254, 0.07);
@@ -56,7 +60,7 @@ header {
   position: relative;
   top: 100px;
   margin-top: -20px;
-  background-color: #913800;
+  background-color: #cc4b00;
   /* background: linear-gradient(to bottom right, #7a4016, #4f2100); */
   /* -webkit-background-clip: border-box; */
   color: transparent;
@@ -70,3 +74,4 @@ header {
   top: 100px;
   margin-top: -20px;
 }
+
